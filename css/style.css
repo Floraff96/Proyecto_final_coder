@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+* { 
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header { 
+    background-color: #f2f4f3;
+    text-align: center;
+    
+}
+.nav-bar { 
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a9927d;
+
+}
+h1{ color: #22333b; 
+    
+    font-family: 'Modak', cursive;
+    font-weight: 300;
+    font-size: 120px;
+}
+
+body { background-color: #a9927d;
+
+}
+
+.foto {
+background-color: #a9927d;
+display: grid;
+width: 100%;
+height: 700%;
+grid-template-columns: 1fr 1fr 1fr  ;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas: 
+"foto-1 foto-2 foto-3"
+"foto-4 foto-5 foto-6"
+;
+}
+
+.foto-1{
+    background-color: #a9927d;
+    grid-area: "foto-1";
+    width: 50px;
+    height: 200px;
+}
+.foto-2{
+    background-color: #a9927d;
+}
+.foto-3{
+    background-color: #a9927d;
+}
+.foto-4{
+    background-color: #a9927d;
+}
+.foto-5{
+    background-color: #a9927d;
+}
+.foto-6{
+    background-color: #a9927d;
+}
+
+/** ----TALLES HTML----- **/
+
